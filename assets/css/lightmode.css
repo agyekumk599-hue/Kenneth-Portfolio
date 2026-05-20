@@ -410,7 +410,7 @@ main {
 }
 
 .sidebar.active {
-  max-height: 840px;
+  max-height: none;
   overflow: visible;
 }
 
@@ -434,6 +434,8 @@ main {
   padding: 6px;
 
   background: linear-gradient(135deg, #19b5fe, #00f2fe);
+  border: 4px solid rgba(14, 165, 233, 0.18);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.12);
 
   display: flex;
   justify-content: center;
@@ -2033,7 +2035,8 @@ textarea.form-input::-webkit-resizer {
   }
 
   .sidebar.active {
-    max-height: 584px;
+    max-height: none;
+    overflow: visible;
   }
 
   .sidebar-info {
@@ -2708,6 +2711,8 @@ textarea.form-input::-webkit-resizer {
     max-width: 180px;
     aspect-ratio: 1 / 1;
     padding: 4px;
+    border: 4px solid rgba(14, 165, 233, 0.18);
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.12);
   }
 
   .profile-img,
@@ -2716,6 +2721,7 @@ textarea.form-input::-webkit-resizer {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.9);
   }
 
   .info-content {
