@@ -422,25 +422,28 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
-  width: 220px;
-  height: 220px;
+  .avatar-box {
+    width: 220px;
+    height: 220px;
 
-  margin: 0 auto 25px auto;
+    margin: 0 auto 25px auto;
 
-  border-radius: 50%;
-  overflow: hidden;
+    border-radius: 50%;
 
-  padding: 6px;
+    overflow: hidden;
 
-  background: linear-gradient(135deg, #19b5fe, #00f2fe);
-  border: 4px solid rgba(14, 165, 233, 0.18);
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.12);
+    padding: 1px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    background: linear-gradient(135deg, #19b5fe, #00f2fe);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow:
+      0 0 25px rgba(25, 181, 254, 0.35),
+      0 10px 30px rgba(0, 0, 0, 0.15);
+  }
 
 .info-content .name {
   font-size: 28px;
@@ -2050,15 +2053,20 @@ textarea.form-input::-webkit-resizer {
     margin: 0 auto 25px auto;
 
     border-radius: 50%;
+
     overflow: hidden;
 
-    padding: 6px;
+    padding: 5px;
 
     background: linear-gradient(135deg, #19b5fe, #00f2fe);
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow:
+      0 0 25px rgba(25, 181, 254, 0.35),
+      0 10px 30px rgba(0, 0, 0, 0.15);
   }
 
   .profile-img {
@@ -2188,8 +2196,11 @@ textarea.form-input::-webkit-resizer {
   }
 
   .testimonials-avatar-box {
-    transform: translate(0, -28px);
+    transform: translate(10, -10px);
     border-radius: 20px;
+    position: absolute;
+    top: none;
+    right: 26px;
     width: 68px;
     height: 68px;
   }

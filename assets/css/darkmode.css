@@ -911,9 +911,9 @@ main {
 }
 
 .testimonials-avatar-box {
-  position: absolute;
-  top: -32px;
-  left: 26px;
+  position:  absolute;
+  top: -15px;
+  right: 26px;
   width: 68px;
   height: 68px;
   padding: 8px;
@@ -1966,7 +1966,7 @@ textarea.form-input::-webkit-resizer {
 
     overflow: hidden;
 
-    padding: 6px;
+    padding: 1px;
 
     background: linear-gradient(135deg, #19b5fe, #00f2fe);
 
