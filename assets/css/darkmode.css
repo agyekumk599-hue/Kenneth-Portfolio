@@ -807,6 +807,7 @@ main {
   z-index: 0;
 }
 
+
 .service-item:hover {
   transform: translateY(-8px);
   box-shadow: var(--shadow-3), var(--shadow-glow-hover);
